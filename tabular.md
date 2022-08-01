@@ -2,7 +2,7 @@
 title: Table test
 ---
 
-<h2>Foo 002</h2>
+<h2>Foo 003</h2>
 
 {% assign row = site.data.problems-asis-01[0] %} 
 {{ row | inspect }}
