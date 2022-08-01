@@ -3,7 +3,8 @@ title: Table test
 ---
 
 <table>
-  {% for row in site.data.authors %}
+
+  {% for row in site.data.problems-asis-01 %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
@@ -16,4 +17,5 @@ title: Table test
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
+
 </table>
