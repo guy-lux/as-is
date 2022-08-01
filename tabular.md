@@ -1,11 +1,8 @@
 ---
-title: Table test
+title: As-is issue tracker
 ---
 
-<h2>Foo 003</h2>
-
-{% assign row = site.data.problems-asis-01[0] %} 
-{{ row | inspect }}
+<h2>#as-is issues - Aug 2022</h2>
 
 <table>
 
